@@ -100,5 +100,6 @@ public class PlayerController : MonoBehaviour
     {
         //判定してbool値を返す(レーザー飛ばすポジション、方向、距離、地面判定するレイヤー)
         return Physics.Raycast(groundCheckPoint.position,Vector3.down,0.25f,groundLayers);
+        //
     }
 }
